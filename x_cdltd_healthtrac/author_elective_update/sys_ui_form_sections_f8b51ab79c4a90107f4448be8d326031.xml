@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="f8b51ab79c4a90107f4448be8d326031" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>MKostecki</sys_created_by>
+            <sys_created_on>2020-07-23 19:46:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30b51ab79c4a90107f4448be8d32605a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_healthtrac_health_tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">f8b51ab79c4a90107f4448be8d326031</sys_ui_form>
+            <sys_ui_section caption="Health Report" display_value="Health Report" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">10c535ff9cc690107f4448be8d32606c</sys_ui_section>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:48:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>MKostecki</sys_created_by>
+            <sys_created_on>2020-07-23 19:46:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8b51ab79c4a90107f4448be8d32605a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_healthtrac_health_tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">f8b51ab79c4a90107f4448be8d326031</sys_ui_form>
+            <sys_ui_section caption="Covid Contact" display_value="Covid Contact" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">74b51ab79c4a90107f4448be8d326030</sys_ui_section>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:50:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>MKostecki</sys_created_by>
+            <sys_created_on>2020-07-23 19:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8b51ab79c4a90107f4448be8d326031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_healthtrac_health_tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f8b51ab79c4a90107f4448be8d326031</sys_update_name>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:46:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_ui_form_sections_f8b51ab79c4a90107f4448be8d326031</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="f8b51ab79c4a90107f4448be8d326031" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 19:46:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>30b51ab79c4a90107f4448be8d32605a</sys_id><sys_mod_count>2</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_healthtrac_health_tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">f8b51ab79c4a90107f4448be8d326031</sys_ui_form><sys_ui_section caption="Health Report" display_value="Health Report" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">10c535ff9cc690107f4448be8d32606c</sys_ui_section><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 19:48:35</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 19:46:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8b51ab79c4a90107f4448be8d32605a</sys_id><sys_mod_count>4</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_healthtrac_health_tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">f8b51ab79c4a90107f4448be8d326031</sys_ui_form><sys_ui_section caption="Covid Contact" display_value="Covid Contact" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">74b51ab79c4a90107f4448be8d326030</sys_ui_section><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 19:50:33</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_cdltd_healthtrac_health_tracker</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 19:46:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8b51ab79c4a90107f4448be8d326031</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_healthtrac_health_tracker</sys_name><sys_overrides/><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_ui_form_sections_f8b51ab79c4a90107f4448be8d326031</sys_update_name><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 19:46:26</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-824128141</payload_hash>
+        <record_name>Health Tracker</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 19:50:33</sys_created_on>
+        <sys_id>b8a616f79c4a90107f4448be8d3260f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737d3a33bb0000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 19:50:33</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>34a616f77b4a9010ce4bb513e20560f1</update_guid>
+        <update_guid_history>34a616f77b4a9010ce4bb513e20560f1:-824128141,f8a616f7094a9010fcda213b02f1b0d4:-1563265548,7d9616f7a14a9010db6f54e84c174c36:1019130367,b99616f7824a9010ecfde250883e1a34:-1900338945,94369eb7b94a9010558fb28ae290e1be:-824128141,48369eb7944a901074d24a0f38b344ba:1708085237,85165eb7ca4a901045feb089a4227758:-609763482,c9165eb7324a9010df4ec4cfc1006755:1204503910,30b51ab71e4a9010d93264cdbc35225c:916015090,bcb51ab7124a901091a46d4d33dd5658:1452612620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 21:51:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>5f206f4f24e04bc6b6c93f175cdeb839</sys_id>
+        <sys_metadata>f8b51ab79c4a90107f4448be8d326031</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_healthtrac_health_tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="">b485b1ff9cc690107f4448be8d32606c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_f8b51ab79c4a90107f4448be8d326031</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_f8b51ab79c4a90107f4448be8d326031">b8a616f79c4a90107f4448be8d3260f1</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:51:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

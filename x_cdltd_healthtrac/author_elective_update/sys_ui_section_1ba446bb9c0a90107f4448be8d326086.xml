@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="COVID Tracker" section_id="1ba446bb9c0a90107f4448be8d326086" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>1ba446bb9c0a90107f4448be8d32608a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>9ba446bb9c0a90107f4448be8d32608a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_do_you_feel</element>
+            <position>2</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>1fa446bb9c0a90107f4448be8d32608a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>3</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>9fa446bb9c0a90107f4448be8d32608a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>13a446bb9c0a90107f4448be8d32608b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_covid</element>
+            <position>5</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>93a446bb9c0a90107f4448be8d32608b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exposed_coworker</element>
+            <position>6</position>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_id>17a446bb9c0a90107f4448be8d32608b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>COVID Tracker</caption>
+            <header>false</header>
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ba446bb9c0a90107f4448be8d326086</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>COVID Tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_ui_section_1ba446bb9c0a90107f4448be8d326086</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_ui_section_1ba446bb9c0a90107f4448be8d326086</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="COVID Tracker" section_id="1ba446bb9c0a90107f4448be8d326086" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>1ba446bb9c0a90107f4448be8d32608a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>9ba446bb9c0a90107f4448be8d32608a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>how_do_you_feel</element><position>2</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>1fa446bb9c0a90107f4448be8d32608a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>3</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>9fa446bb9c0a90107f4448be8d32608a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>13a446bb9c0a90107f4448be8d32608b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contact_covid</element><position>5</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>93a446bb9c0a90107f4448be8d32608b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>exposed_coworker</element><position>6</position><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_id>17a446bb9c0a90107f4448be8d32608b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">1ba446bb9c0a90107f4448be8d326086</sys_ui_section><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>COVID Tracker</caption><header>false</header><name>x_cdltd_healthtrac_health_tracker</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:32:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ba446bb9c0a90107f4448be8d326086</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COVID Tracker</sys_name><sys_overrides/><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_ui_section_1ba446bb9c0a90107f4448be8d326086</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:32:04</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1283750747</payload_hash>
+        <record_name>Health Tracker</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:32:04</sys_created_on>
+        <sys_id>53a446bb9c0a90107f4448be8d32608d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737cf259000000001</sys_recorded_at>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:32:04</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>dba446bb6f0a90102979f2418751398c</update_guid>
+        <update_guid_history>dba446bb6f0a90102979f2418751398c:1283750747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 21:51:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2f4db78fdef74abe81fb6809639e3724</sys_id>
+        <sys_metadata>1ba446bb9c0a90107f4448be8d326086</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COVID Tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="">b485b1ff9cc690107f4448be8d32606c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1ba446bb9c0a90107f4448be8d326086</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1ba446bb9c0a90107f4448be8d326086">53a446bb9c0a90107f4448be8d32608d</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:51:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

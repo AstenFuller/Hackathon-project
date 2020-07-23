@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_cdltd_healthtrac.GoToPortalButton</name>
+        <script><![CDATA[document.addEventListener("DOMContentLoaded", function(event) {
+	
+	try{
+		if(getTopWindow().document.querySelector(".navbar-header").parentNode.innerHTML.indexOf('essLink')==-1){
+			var theWindow = getTopWindow().window.location;
+			var theURL = theWindow.href;
+			var baseURL = theWindow.protocol + "//" + theWindow.host + "/";
+			
+			if ((theURL.indexOf('nav_to.do?') != -1 || theURL.indexOf('navpage.do') != -1 || theURL == baseURL)){
+				//alert(getTopWindow().document.getElementsByClassName("nav navbar-right")[0]);
+				var theLinkElement = getTopWindow().document.querySelector("a[class~=headerlink]");
+				
+				//Only insert if the user has roles and the links are not on the page already
+				if(jQuery(theLinkElement).length == 0){
+					var theStyle = "float: right; border-radius: 20%; padding: 2px 2px; font-size: 1.1rem; margin: 8px;" +
+					" right: 4px; min-width: 120px; width: auto; height: 20px; text-align: center;" +
+					" color: White";
+					//Common styling using div & spans
+					var linkDivOpen = '<div><span style="' + theStyle + '">';
+					var linkDivClose = "</span></div>";
+					//Ess Link
+					var essLink = "<a target='top' href='/sp/' id='essLink'  style='padding: 8px;border-radius: 3px;font-weight: normal;cursor: pointer;margin-right: 5px;border-style: solid;color: white;background-color: #5e7ce5;border-color: #a1082e;border-width: 1px;font-family: inherit;font-size: inherit;line-height: inherit; vertical-align: middle;'>Go To Portal</a>";
+					
+					var theHeaderElement = getTopWindow().document.querySelector(".navbar-header");	
+					//Insert the links
+					jQuery(linkDivOpen + essLink + linkDivClose).insertAfter(theHeaderElement);		
+				}		
+			}
+		}
+	}catch(e){
+	}		
+		
+	});]]></script>
+        <script_name>GoToPortalButton</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 18:28:46</sys_created_on>
+        <sys_id>72a38e3b9c0a90107f4448be8d326070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_healthtrac.GoToPortalButton</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_ui_script_72a38e3b9c0a90107f4448be8d326070</sys_update_name>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:28:46</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_ui_script_72a38e3b9c0a90107f4448be8d326070</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_cdltd_healthtrac.GoToPortalButton&lt;/name&gt;&lt;script&gt;&lt;![CDATA[document.addEventListener("DOMContentLoaded", function(event) {
+	
+	try{
+		if(getTopWindow().document.querySelector(".navbar-header").parentNode.innerHTML.indexOf('essLink')==-1){
+			var theWindow = getTopWindow().window.location;
+			var theURL = theWindow.href;
+			var baseURL = theWindow.protocol + "//" + theWindow.host + "/";
+			
+			if ((theURL.indexOf('nav_to.do?') != -1 || theURL.indexOf('navpage.do') != -1 || theURL == baseURL)){
+				//alert(getTopWindow().document.getElementsByClassName("nav navbar-right")[0]);
+				var theLinkElement = getTopWindow().document.querySelector("a[class~=headerlink]");
+				
+				//Only insert if the user has roles and the links are not on the page already
+				if(jQuery(theLinkElement).length == 0){
+					var theStyle = "float: right; border-radius: 20%; padding: 2px 2px; font-size: 1.1rem; margin: 8px;" +
+					" right: 4px; min-width: 120px; width: auto; height: 20px; text-align: center;" +
+					" color: White";
+					//Common styling using div &amp; spans
+					var linkDivOpen = '&lt;div&gt;&lt;span style="' + theStyle + '"&gt;';
+					var linkDivClose = "&lt;/span&gt;&lt;/div&gt;";
+					//Ess Link
+					var essLink = "&lt;a target='top' href='/sp/' id='essLink'  style='padding: 8px;border-radius: 3px;font-weight: normal;cursor: pointer;margin-right: 5px;border-style: solid;color: white;background-color: #5e7ce5;border-color: #a1082e;border-width: 1px;font-family: inherit;font-size: inherit;line-height: inherit; vertical-align: middle;'&gt;Go To Portal&lt;/a&gt;";
+					
+					var theHeaderElement = getTopWindow().document.querySelector(".navbar-header");	
+					//Insert the links
+					jQuery(linkDivOpen + essLink + linkDivClose).insertAfter(theHeaderElement);		
+				}		
+			}
+		}
+	}catch(e){
+	}		
+		
+	});]]&gt;&lt;/script&gt;&lt;script_name&gt;GoToPortalButton&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKostecki&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-23 18:28:46&lt;/sys_created_on&gt;&lt;sys_id&gt;72a38e3b9c0a90107f4448be8d326070&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_cdltd_healthtrac.GoToPortalButton&lt;/sys_name&gt;&lt;sys_package display_value="HealthTracker" source="x_cdltd_healthtrac"&gt;7ce4b9bf9cc690107f4448be8d326065&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HealthTracker"&gt;7ce4b9bf9cc690107f4448be8d326065&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_72a38e3b9c0a90107f4448be8d326070&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKostecki&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-23 18:28:46&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1069152986</payload_hash>
+        <record_name>x_cdltd_healthtrac.GoToPortalButton</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 18:28:46</sys_created_on>
+        <sys_id>fee3827b9c0a90107f4448be8d326051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737cef53bc0000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:28:46</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>3ae3827bf90a901058056451fa51fe51</update_guid>
+        <update_guid_history>3ae3827bf90a901058056451fa51fe51:-1069152986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 18:29:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>395587272ed7467a97f1cb17ded15b39</sys_id>
+        <sys_metadata>72a38e3b9c0a90107f4448be8d326070</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_healthtrac.GoToPortalButton</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_ui_script_72a38e3b9c0a90107f4448be8d326070</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_72a38e3b9c0a90107f4448be8d326070">fee3827b9c0a90107f4448be8d326051</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:29:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

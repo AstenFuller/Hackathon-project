@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Health Tracker" max_length="40" name="x_cdltd_healthtrac_health_tracker" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Who have you been in contact with?" mandatory="true" max_length="1024" name="colleagues_exposed" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you been in contact with anyone with COVID in the last 14 days?" mandatory="true" max_length="40" name="contact_covid" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes_contact"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no_contact"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Who from work?" mandatory="true" max_length="1024" name="coworker_exposed" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you been diagnosed?" mandatory="true" max_length="40" name="diagnosed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes_diagnosed"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no_diagnosed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Who from home?" mandatory="true" max_length="250" name="home_exposed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How do you feel?" mandatory="true" max_length="40" name="how_do_you_feel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I have symptoms" sequence="0" value="symptoms"/>
+                <element inactive_on_update="false" label="I do not have symptoms" sequence="1" value="no_symptoms"/>
+                <element inactive_on_update="false" label="I do not wish to answer" sequence="2" value="no_answer"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Were they at work or home?" mandatory="true" max_length="40" name="work_or_home" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Home" sequence="0" value="home"/>
+                <element inactive_on_update="false" label="Work" sequence="1" value="work"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+            </choice>
+        </element>
+    </element>
+</database>

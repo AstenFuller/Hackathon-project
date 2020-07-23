@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="COVID Tracker" section_id="49165eb79c4a90107f4448be8d326051" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>MKostecki</sys_created_by>
+            <sys_created_on>2020-07-23 19:48:06</sys_created_on>
+            <sys_id>81165eb79c4a90107f4448be8d32607f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">49165eb79c4a90107f4448be8d326051</sys_ui_section>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:48:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>COVID Tracker</caption>
+            <header>false</header>
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MKostecki</sys_created_by>
+            <sys_created_on>2020-07-23 19:48:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49165eb79c4a90107f4448be8d326051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>COVID Tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_ui_section_49165eb79c4a90107f4448be8d326051</sys_update_name>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:48:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_ui_section_49165eb79c4a90107f4448be8d326051</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="COVID Tracker" section_id="49165eb79c4a90107f4448be8d326051" sys_domain="global" table="x_cdltd_healthtrac_health_tracker" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 19:48:06</sys_created_on><sys_id>81165eb79c4a90107f4448be8d32607f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="COVID Tracker" display_value="COVID Tracker" name="x_cdltd_healthtrac_health_tracker" sys_domain="global" view="Default view">49165eb79c4a90107f4448be8d326051</sys_ui_section><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 19:48:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>COVID Tracker</caption><header>false</header><name>x_cdltd_healthtrac_health_tracker</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 19:48:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>49165eb79c4a90107f4448be8d326051</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COVID Tracker</sys_name><sys_overrides/><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_ui_section_49165eb79c4a90107f4448be8d326051</sys_update_name><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 19:48:06</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>149474138</payload_hash>
+        <record_name>Health Tracker</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 19:48:06</sys_created_on>
+        <sys_id>c5165eb79c4a90107f4448be8d326080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737d37f77d0000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 19:48:06</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>41165eb7344a901020fd9eb691c60980</update_guid>
+        <update_guid_history>41165eb7344a901020fd9eb691c60980:149474138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 19:48:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>14a6cb0d25c1439b89086ed2262b9971</sys_id>
+        <sys_metadata>49165eb79c4a90107f4448be8d326051</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COVID Tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="">b485b1ff9cc690107f4448be8d32606c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_ui_section_49165eb79c4a90107f4448be8d326051</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_49165eb79c4a90107f4448be8d326051">c5165eb79c4a90107f4448be8d326080</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 19:48:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

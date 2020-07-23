@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>exposed_coworker</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:52:43</sys_created_on>
+        <sys_id>57598abf9c0a90107f4448be8d326072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exposed_coworker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_ui_policy_action_57598abf9c0a90107f4448be8d326072</sys_update_name>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:52:43</sys_updated_on>
+        <table>x_cdltd_healthtrac_health_tracker</table>
+        <ui_policy display_value="Will show contact from work if work or home field is Work or both.">73e6023f9c0a90107f4448be8d326013</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_ui_policy_action_57598abf9c0a90107f4448be8d326072</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>exposed_coworker</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:52:43</sys_created_on><sys_id>57598abf9c0a90107f4448be8d326072</sys_id><sys_mod_count>0</sys_mod_count><sys_name>exposed_coworker</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_ui_policy_action_57598abf9c0a90107f4448be8d326072</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:52:43</sys_updated_on><table>x_cdltd_healthtrac_health_tracker</table><ui_policy display_value="Will show contact from work if work or home field is Work or both.">73e6023f9c0a90107f4448be8d326013</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>802878087</payload_hash>
+        <record_name>exposed_coworker</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:52:43</sys_created_on>
+        <sys_id>f9690ebf9c0a90107f4448be8d32606c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737d05422c0000001</sys_recorded_at>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:52:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>35690ebf3c0a90101d0e8f302a26356c</update_guid>
+        <update_guid_history>35690ebf3c0a90101d0e8f302a26356c:802878087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:53:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>17b03f197214466f841d119e212dab39</sys_id>
+        <sys_metadata>57598abf9c0a90107f4448be8d326072</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exposed_coworker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="">73e6023f9c0a90107f4448be8d326013</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_57598abf9c0a90107f4448be8d326072</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_57598abf9c0a90107f4448be8d326072">f9690ebf9c0a90107f4448be8d32606c</sys_update_version>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:53:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

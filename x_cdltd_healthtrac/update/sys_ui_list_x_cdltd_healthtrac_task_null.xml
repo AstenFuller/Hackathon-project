@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_cdltd_healthtrac_task" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_cdltd_healthtrac_task" element="NULL" name="x_cdltd_healthtrac_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4cd1367b9c8a90107f4448be8d3260ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 21:49:16</sys_created_on>
+            <sys_id>4cd1767b9c8a90107f4448be8d326000</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 21:49:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cdltd_healthtrac_task</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 21:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cd1367b9c8a90107f4448be8d3260ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_healthtrac_task</sys_name>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_ui_list_x_cdltd_healthtrac_task_null</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 21:49:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="colleagues_exposed" label="Who have you been in contact with?" language="en" table="x_cdltd_healthtrac_health_tracker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>colleagues_exposed</element>
+            <help/>
+            <hint/>
+            <label>Who have you been in contact with?</label>
+            <language>en</language>
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <plural>Who have you been in contact with?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 22:01:52</sys_created_on>
+            <sys_id>a8b43e3f9c8a90107f4448be8d3260bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Who have you been in contact with?</sys_name>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_healthtrac_health_tracker_colleagues_exposed_en</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 22:01:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

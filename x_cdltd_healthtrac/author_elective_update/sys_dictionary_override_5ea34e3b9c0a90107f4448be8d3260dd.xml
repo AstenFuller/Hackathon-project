@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>short_description</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>x_cdltd_healthtrac_health_tracker</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:27:38</sys_created_on>
+        <sys_id>5ea34e3b9c0a90107f4448be8d3260dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_dictionary_override_5ea34e3b9c0a90107f4448be8d3260dd</sys_update_name>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:27:38</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_dictionary_override_5ea34e3b9c0a90107f4448be8d3260dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>short_description</element><mandatory>true</mandatory><mandatory_override>true</mandatory_override><name>x_cdltd_healthtrac_health_tracker</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:27:38</sys_created_on><sys_id>5ea34e3b9c0a90107f4448be8d3260dd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>short_description</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_dictionary_override_5ea34e3b9c0a90107f4448be8d3260dd</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:27:38</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>111784279</payload_hash>
+        <record_name>short_description</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 18:27:38</sys_created_on>
+        <sys_id>9aa34e3b9c0a90107f4448be8d3260e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737cee4be40000001</sys_recorded_at>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:27:38</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>16a34e3b8d0a90103343fe9efd3660e5</update_guid>
+        <update_guid_history>16a34e3b8d0a90103343fe9efd3660e5:111784279,92a34e3bf20a9010ddba1c27e5f9d9e1:928256395</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 21:51:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>85a59a72daca49c880a9701b6a8595c4</sys_id>
+        <sys_metadata>5ea34e3b9c0a90107f4448be8d3260dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="">b485b1ff9cc690107f4448be8d326070</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_5ea34e3b9c0a90107f4448be8d3260dd</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_5ea34e3b9c0a90107f4448be8d3260dd">9aa34e3b9c0a90107f4448be8d3260e5</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:51:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

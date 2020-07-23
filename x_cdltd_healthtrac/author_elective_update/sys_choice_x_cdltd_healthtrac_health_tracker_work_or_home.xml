@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="work_or_home" table="x_cdltd_healthtrac_health_tracker" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_or_home</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>both</label>
+            <language>en</language>
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <sequence>2</sequence>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:40:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c964afb9c0a90107f4448be8d326013</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 20:19:21</sys_updated_on>
+            <value>both</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_or_home</element>
+            <name>x_cdltd_healthtrac_health_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 18:40:19</sys_created_on>
+            <sys_id>9c964afb9c0a90107f4448be8d326010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>work_or_home</sys_name>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_healthtrac_health_tracker_work_or_home</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 18:40:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_choice_x_cdltd_healthtrac_health_tracker_work_or_home</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="work_or_home" table="x_cdltd_healthtrac_health_tracker" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>work_or_home</element><hint/><inactive>false</inactive><label>both</label><language>en</language><name>x_cdltd_healthtrac_health_tracker</name><sequence>2</sequence><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:40:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c964afb9c0a90107f4448be8d326013</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 20:19:21</sys_updated_on><value>both</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>work_or_home</element><name>x_cdltd_healthtrac_health_tracker</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 18:40:19</sys_created_on><sys_id>9c964afb9c0a90107f4448be8d326010</sys_id><sys_mod_count>0</sys_mod_count><sys_name>work_or_home</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_choice_x_cdltd_healthtrac_health_tracker_work_or_home</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 18:40:19</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1183307981</payload_hash>
+        <record_name>Task.work_or_home</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 21:51:17</sys_created_on>
+        <sys_id>ad4272bb9c8a90107f4448be8d32600d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737da8be670000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:51:17</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>294272bb188a9010334f27928751dc0d</update_guid>
+        <update_guid_history>294272bb188a9010334f27928751dc0d:1183307981,ad4272bb698a90100a882f16ea73bd09:684173208,323d123f664a901064f2bbd92ce387a5:-1931768818,7e3d123ff84a9010a80bdeab710fcca1:150975803,b23d123feb4a901019a41e18712b6792:-368040521,26abdebb5f4a9010722aaed9dac367df:-921592507,94964afbb10a9010834e02e92c54f316:1115763854</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 21:51:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>9c964afb9c0a90107f4448be8d326010</sys_id>
+        <sys_metadata>9c964afb9c0a90107f4448be8d326010</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_or_home</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cdltd_healthtrac_health_tracker_work_or_home</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cdltd_healthtrac_health_tracker_work_or_home">ad4272bb9c8a90107f4448be8d32600d</sys_update_version>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:51:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
