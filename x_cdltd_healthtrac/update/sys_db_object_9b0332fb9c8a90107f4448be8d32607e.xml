@@ -34,7 +34,7 @@
         <sys_updated_by>AFuller</sys_updated_by>
         <sys_updated_on>2020-07-23 21:55:04</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_cdltd_healthtrac.health_tracker_user" name="x_cdltd_healthtrac.health_tracker_user">b423b2fb9c8a90107f4448be8d326027</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

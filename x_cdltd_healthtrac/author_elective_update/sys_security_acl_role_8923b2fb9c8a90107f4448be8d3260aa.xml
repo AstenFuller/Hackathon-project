@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 21:55:05</sys_created_on>
+        <sys_id>8923b2fb9c8a90107f4448be8d3260aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_healthtrac_health_tracker.x_cdltd_healthtrac.health_tracker_user</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_security_acl display_value="x_cdltd_healthtrac_health_tracker">0d23b2fb9c8a90107f4448be8d3260a7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8923b2fb9c8a90107f4448be8d3260aa</sys_update_name>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:55:05</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_healthtrac.health_tracker_user" name="x_cdltd_healthtrac.health_tracker_user">b423b2fb9c8a90107f4448be8d326027</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_security_acl_role_8923b2fb9c8a90107f4448be8d3260aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 21:55:05</sys_created_on><sys_id>8923b2fb9c8a90107f4448be8d3260aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_healthtrac_health_tracker.x_cdltd_healthtrac.health_tracker_user</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_security_acl display_value="x_cdltd_healthtrac_health_tracker">0d23b2fb9c8a90107f4448be8d3260a7</sys_security_acl><sys_update_name>sys_security_acl_role_8923b2fb9c8a90107f4448be8d3260aa</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 21:55:05</sys_updated_on><sys_user_role display_value="x_cdltd_healthtrac.health_tracker_user" name="x_cdltd_healthtrac.health_tracker_user">b423b2fb9c8a90107f4448be8d326027</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1742116912</payload_hash>
+        <record_name>x_cdltd_healthtrac_health_tracker.x_cdltd_healthtrac.health_tracker_user</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 21:55:05</sys_created_on>
+        <sys_id>cd23b2fb9c8a90107f4448be8d3260c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737dac37070000001</sys_recorded_at>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:55:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0923b2fba68a90104c8687d253b2a0c5</update_guid>
+        <update_guid_history>0923b2fba68a90104c8687d253b2a0c5:1742116912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_healthtrac_health_tracker.x_cdltd_healthtrac.health_tracker_user">357a7ab39cca90107f4448be8d3260d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 22:27:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>13876b2778e5448b9d0251146d16c331</sys_id>
+        <sys_metadata>8923b2fb9c8a90107f4448be8d3260aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_healthtrac_health_tracker.x_cdltd_healthtrac.health_tracker_user</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent display_value="x_cdltd_healthtrac_health_tracker">0d23b2fb9c8a90107f4448be8d3260a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8923b2fb9c8a90107f4448be8d3260aa</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8923b2fb9c8a90107f4448be8d3260aa">cd23b2fb9c8a90107f4448be8d3260c5</sys_update_version>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 22:27:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

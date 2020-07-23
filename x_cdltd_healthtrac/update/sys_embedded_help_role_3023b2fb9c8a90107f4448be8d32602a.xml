@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_cdltd_healthtrac.health_tracker_user" name="x_cdltd_healthtrac.health_tracker_user">b423b2fb9c8a90107f4448be8d326027</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>AFuller</sys_created_by>
         <sys_created_on>2020-07-23 21:55:04</sys_created_on>

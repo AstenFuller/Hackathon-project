@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Task</name>
+        <order>100</order>
+        <roles>x_cdltd_healthtrac.admin,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 21:44:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4a0723b9c8a90107f4448be8d3260cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_app_application_e4a0723b9c8a90107f4448be8d3260cf</sys_update_name>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 22:53:43</sys_updated_on>
+        <title>Task</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_app_application_e4a0723b9c8a90107f4448be8d3260cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Task</name><order>100</order><roles>x_cdltd_healthtrac.admin,admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 21:44:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4a0723b9c8a90107f4448be8d3260cf</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Task</sys_name><sys_overrides/><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_app_application_e4a0723b9c8a90107f4448be8d3260cf</sys_update_name><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 22:53:43</sys_updated_on><title>Task</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-297163140</payload_hash>
+        <record_name>Task</record_name>
+        <reverted_from/>
+        <source>70c772339cca90107f4448be8d326092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 22:53:43</sys_created_on>
+        <sys_id>84908f3b9cca90107f4448be8d3260fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737de1e63e0000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 22:53:43</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>00908f3b9bca9010977229f7b214fffc</update_guid>
+        <update_guid_history>00908f3b9bca9010977229f7b214fffc:-297163140,b6ad32b778ca9010a833e669cff349be:137275102,718b3ef308ca9010ffcb13adae0093e5:237144127,e0a0723b4f8a90107affc4ad3f6008d1:483546761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Task">6e39c7739c0e90107f4448be8d32607f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 23:31:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>7c5a5bca13cd4bbc87919b956d89d9a9</sys_id>
+        <sys_metadata>e4a0723b9c8a90107f4448be8d3260cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_app_application_e4a0723b9c8a90107f4448be8d3260cf</sys_update_name>
+        <sys_update_version display_value="sys_app_application_e4a0723b9c8a90107f4448be8d3260cf">84908f3b9cca90107f4448be8d3260fc</sys_update_version>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 23:31:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

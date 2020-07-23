@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Health Tracker">bca6cafb9c0a90107f4448be8d326076</catalog_item>
+        <catalog_variable>IO:6d4b9abb9c4a90107f4448be8d32608c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 23:22:55</sys_created_on>
+        <sys_id>04374fbf9cca90107f4448be8d326001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_or_home</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_04374fbf9cca90107f4448be8d326001</sys_update_name>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 23:22:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Have you been in contact with someone?">6a074bbf9cca90107f4448be8d326032</ui_policy>
+        <variable>work_or_home</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

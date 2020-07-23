@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="covid_notify" label="Do you want to notify employees?" language="en" table="x_cdltd_healthtrac_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>covid_notify</element>
+            <help/>
+            <hint/>
+            <label>Do you want to notify employees?</label>
+            <language>en</language>
+            <name>x_cdltd_healthtrac_task</name>
+            <plural>Do you want to notify employees?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 22:21:40</sys_created_on>
+            <sys_id>263972739cca90107f4448be8d326021</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Do you want to notify employees?</sys_name>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_healthtrac_task_covid_notify_en</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 22:21:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

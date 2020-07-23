@@ -23,6 +23,7 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Please describe your symptoms below:" mandatory="true" max_length="2500" name="symptoms" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
@@ -31,7 +32,7 @@
             </choice>
         </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Were they at work or home?" mandatory="true" max_length="40" name="work_or_home" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Please provide where did you contacted them at work or home?" mandatory="true" max_length="40" name="work_or_home" type="string">
             <choice>
                 <element inactive_on_update="false" label="Home" sequence="0" value="home"/>
                 <element inactive_on_update="false" label="Work" sequence="1" value="work"/>

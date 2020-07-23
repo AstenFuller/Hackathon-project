@@ -46,13 +46,13 @@
         <image_width/>
         <size_bytes>153688</size_bytes>
         <size_compressed>152598</size_compressed>
-        <state>pending</state>
+        <state>available_conditionally</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-23 17:23:06</sys_created_on>
         <sys_id>05e4f9fb9cc690107f4448be8d326005</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-23 17:23:06</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 23:19:22</sys_updated_on>
         <table_name>sys_app</table_name>
         <table_sys_id>7ce4b9bf9cc690107f4448be8d326065</table_sys_id>
     </sys_attachment>

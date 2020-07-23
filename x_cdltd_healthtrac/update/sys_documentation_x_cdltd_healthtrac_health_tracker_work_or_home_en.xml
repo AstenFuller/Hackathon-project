@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="work_or_home" label="Were they at work or home?" language="en" table="x_cdltd_healthtrac_health_tracker">
+    <sys_documentation element="work_or_home" label="Please provide where did you contacted them at work or home?" language="en" table="x_cdltd_healthtrac_health_tracker">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>work_or_home</element>
             <help/>
             <hint/>
-            <label>Were they at work or home?</label>
+            <label>Please provide where did you contacted them at work or home?</label>
             <language>en</language>
             <name>x_cdltd_healthtrac_health_tracker</name>
-            <plural>Were they at work or home?s</plural>
+            <plural>Please provide where did you contacted them at work or home?s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>AFuller</sys_created_by>
             <sys_created_on>2020-07-23 22:08:56</sys_created_on>
             <sys_id>4056babf9c8a90107f4448be8d326036</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Were they at work or home?</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Please provide where did you contacted them at work or home?</sys_name>
             <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
             <sys_policy/>
             <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
             <sys_update_name>sys_documentation_x_cdltd_healthtrac_health_tracker_work_or_home_en</sys_update_name>
-            <sys_updated_by>AFuller</sys_updated_by>
-            <sys_updated_on>2020-07-23 22:08:56</sys_updated_on>
+            <sys_updated_by>MKostecki</sys_updated_by>
+            <sys_updated_on>2020-07-23 22:29:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

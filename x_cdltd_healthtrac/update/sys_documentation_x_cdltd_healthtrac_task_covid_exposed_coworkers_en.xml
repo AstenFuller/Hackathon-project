@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="covid_exposed_coworkers" label="Exposed coworkers" language="en" table="x_cdltd_healthtrac_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>covid_exposed_coworkers</element>
+            <help/>
+            <hint/>
+            <label>Exposed coworkers</label>
+            <language>en</language>
+            <name>x_cdltd_healthtrac_task</name>
+            <plural>Exposed coworkers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AFuller</sys_created_by>
+            <sys_created_on>2020-07-23 22:21:40</sys_created_on>
+            <sys_id>ea3972739cca90107f4448be8d32603d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Exposed coworkers</sys_name>
+            <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_healthtrac_task_covid_exposed_coworkers_en</sys_update_name>
+            <sys_updated_by>AFuller</sys_updated_by>
+            <sys_updated_on>2020-07-23 22:21:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

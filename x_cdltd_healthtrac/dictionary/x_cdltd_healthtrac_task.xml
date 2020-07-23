@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Health Tracker Task" max_length="40" name="x_cdltd_healthtrac_task" type="collection">
+        <element attributes="encode_utf8=false" label="Diagnosed" max_length="32" name="covid_diagnosed" read_only="true" reference="x_cdltd_healthtrac_health_tracker" type="reference"/>
+        <element attributes="encode_utf8=false" label="Exposed coworkers" max_length="32" name="covid_exposed_coworkers" read_only="true" reference="x_cdltd_healthtrac_health_tracker" type="reference"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="covid_name" read_only="true" reference="x_cdltd_healthtrac_health_tracker" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you want to notify employees?" mandatory="true" max_length="40" name="covid_notify" type="string">
+            <choice>
+                <element inactive_on_update="false" label="yes" sequence="0" value="yes_notify"/>
+                <element inactive_on_update="false" label="no" sequence="1" value="no_notify"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Symptoms" max_length="32" name="covid_symptoms" read_only="true" reference="x_cdltd_healthtrac_health_tracker" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="covid_exposed_coworkers"/>
+        </index>
+        <index name="index2">
+            <element name="covid_symptoms"/>
+        </index>
+        <index name="index3">
+            <element name="covid_diagnosed"/>
+        </index>
+        <index name="index4">
+            <element name="covid_name"/>
+        </index>
     </element>
 </database>

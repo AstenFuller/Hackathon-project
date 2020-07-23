@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>false</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Health Tracker</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 21:55:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b023b2fb9c8a90107f4448be8d32602e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Health Tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_app_application_b023b2fb9c8a90107f4448be8d32602e</sys_update_name>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 22:40:05</sys_updated_on>
+        <title>Health Tracker</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_app_application_b023b2fb9c8a90107f4448be8d32602e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>false</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Health Tracker</name><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>AFuller</sys_created_by><sys_created_on>2020-07-23 21:55:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b023b2fb9c8a90107f4448be8d32602e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Health Tracker</sys_name><sys_overrides/><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_app_application_b023b2fb9c8a90107f4448be8d32602e</sys_update_name><sys_updated_by>AFuller</sys_updated_by><sys_updated_on>2020-07-23 22:40:05</sys_updated_on><title>Health Tracker</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1077514166</payload_hash>
+        <record_name>Health Tracker</record_name>
+        <reverted_from/>
+        <source>2bb732339cca90107f4448be8d326035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 22:40:05</sys_created_on>
+        <sys_id>247d3e779cca90107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737dd56c960000001</sys_recorded_at>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 22:40:05</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>ac7d3e77d8ca901038dddd34dfe473d1</update_guid>
+        <update_guid_history>ac7d3e77d8ca901038dddd34dfe473d1:-1077514166,e3fc7677ceca90106fca2c3ed8c740b6:1762333005,d78c3277acca90103e557a46550957e5:1207112430,3023b2fba88a90106d2c115421ce3a6e:-1660828344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Health Tracker">2739c7739c0e90107f4448be8d3260b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>AFuller</sys_created_by>
+        <sys_created_on>2020-07-23 23:31:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>2f0e8f6dbd324314abc9243b4f8ae444</sys_id>
+        <sys_metadata>b023b2fb9c8a90107f4448be8d32602e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health Tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_app_application_b023b2fb9c8a90107f4448be8d32602e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_b023b2fb9c8a90107f4448be8d32602e">247d3e779cca90107f4448be8d3260d2</sys_update_version>
+        <sys_updated_by>AFuller</sys_updated_by>
+        <sys_updated_on>2020-07-23 23:31:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
