@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Health Tracker">bca6cafb9c0a90107f4448be8d326076</cat_item>
         <category/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <example_text/>
         <field>home_exposed</field>
-        <global>false</global>
+        <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>false</include_none>
@@ -59,14 +59,14 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:14:31</sys_created_on>
         <sys_id>b00c92fb9c4a90107f4448be8d3260f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>home_exposed</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Who from home have you been in contact with?</sys_name>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>item_option_new_b00c92fb9c4a90107f4448be8d3260f2</sys_update_name>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:15:59</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 03:00:31</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

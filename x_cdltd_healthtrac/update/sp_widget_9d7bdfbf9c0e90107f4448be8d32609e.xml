@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>link_to_covid</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Link to Covid 19 resources</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-24 00:53:24</sys_created_on>
+        <sys_id>9d7bdfbf9c0e90107f4448be8d32609e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to Covid 19 resources</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sp_widget_9d7bdfbf9c0e90107f4448be8d32609e</sys_update_name>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-24 00:53:24</sys_updated_on>
+        <template><![CDATA[<div>
+  <h5><a target="_blank" href="https://www.cdc.gov/coronavirus/2019-ncov/communication/print-resources.html?Sort=Date%3A%3Adesc">Click here to go to Covid19 Resources website</a></h5>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

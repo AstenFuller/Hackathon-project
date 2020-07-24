@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <example_text/>
         <field>coworker_exposed</field>
-        <global>false</global>
+        <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>false</include_none>
@@ -61,14 +61,14 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:13:50</sys_created_on>
         <sys_id>b4cb12fb9c4a90107f4448be8d3260b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Who from work have you been in contact with?</sys_name>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>item_option_new_b4cb12fb9c4a90107f4448be8d3260b2</sys_update_name>
         <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:14:20</sys_updated_on>
+        <sys_updated_on>2020-07-24 01:11:52</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

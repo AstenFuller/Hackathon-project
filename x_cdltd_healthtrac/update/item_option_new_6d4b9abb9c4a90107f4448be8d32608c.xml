@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <example_text/>
         <field>work_or_home</field>
-        <global>false</global>
+        <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>true</include_none>
@@ -59,14 +59,14 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:11:27</sys_created_on>
         <sys_id>6d4b9abb9c4a90107f4448be8d32608c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Please provide where did you contacted them at work or home?</sys_name>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>item_option_new_6d4b9abb9c4a90107f4448be8d32608c</sys_update_name>
         <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:10:34</sys_updated_on>
+        <sys_updated_on>2020-07-24 01:39:07</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

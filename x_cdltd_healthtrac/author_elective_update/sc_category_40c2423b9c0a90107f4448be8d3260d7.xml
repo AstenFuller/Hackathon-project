@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog/>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 18:23:52</sys_created_on>
+        <sys_id>40c2423b9c0a90107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health Tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sc_category_40c2423b9c0a90107f4448be8d3260d7</sys_update_name>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:23:52</sys_updated_on>
+        <title>Health Tracker</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=40c2423b9c0a90107f4448be8d3260d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sc_category_40c2423b9c0a90107f4448be8d3260d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog/><sys_class_name>sc_category</sys_class_name><sys_created_by>MKostecki</sys_created_by><sys_created_on>2020-07-23 18:23:52</sys_created_on><sys_id>40c2423b9c0a90107f4448be8d3260d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Health Tracker</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sc_category_40c2423b9c0a90107f4448be8d3260d7</sys_update_name><sys_updated_by>MKostecki</sys_updated_by><sys_updated_on>2020-07-23 18:23:52</sys_updated_on><title>Health Tracker</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=40c2423b9c0a90107f4448be8d3260d7"/></record_update>]]></payload>
+        <payload_hash>916366557</payload_hash>
+        <record_name>Health Tracker</record_name>
+        <reverted_from/>
+        <source>fce4b9bf9cc690107f4448be8d326067</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-23 18:23:52</sys_created_on>
+        <sys_id>cbc2823b9c0a90107f4448be8d32608c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737cead8110000001</sys_recorded_at>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-23 18:23:52</sys_updated_on>
+        <type>Category</type>
+        <update_guid>07c2823b410a9010c56e5c4149b27e8c</update_guid>
+        <update_guid_history>07c2823b410a9010c56e5c4149b27e8c:916366557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Health Tracker">721aa77b9c4e90107f4448be8d32601a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MKostecki</sys_created_by>
+        <sys_created_on>2020-07-24 01:55:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>0c9f7fa45974489984878aa9951a73f9</sys_id>
+        <sys_metadata>40c2423b9c0a90107f4448be8d3260d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health Tracker</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sc_category_40c2423b9c0a90107f4448be8d3260d7</sys_update_name>
+        <sys_update_version display_value="sc_category_40c2423b9c0a90107f4448be8d3260d7">cbc2823b9c0a90107f4448be8d32608c</sys_update_version>
+        <sys_updated_by>MKostecki</sys_updated_by>
+        <sys_updated_on>2020-07-24 01:55:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
