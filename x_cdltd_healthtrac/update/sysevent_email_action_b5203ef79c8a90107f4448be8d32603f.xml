@@ -7,7 +7,8 @@
         <affected_field_on_event/>
         <category display_value="Health Tracker" name="Health Tracker">c518d23b9c4a90107f4448be8d32601a</category>
         <collection>x_cdltd_healthtrac_health_tracker</collection>
-        <condition table="x_cdltd_healthtrac_health_tracker">contact_covid=yes_contact^EQ<item display_value="Yes" endquery="false" field="contact_covid" goto="false" newquery="false" operator="=" or="false" value="yes_contact"/>
+        <condition table="x_cdltd_healthtrac_health_tracker">diagnosed=no_diagnosed^how_do_you_feel=symptoms^EQ<item display_value="No" endquery="false" field="diagnosed" goto="false" newquery="false" operator="=" or="false" value="no_diagnosed"/>
+            <item display_value="I have symptoms" endquery="false" field="how_do_you_feel" goto="false" newquery="false" operator="=" or="false" value="symptoms"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -37,9 +38,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi&nbsp; ${name.manager},&nbsp;</p>
-<p>${name.first_name} ${name.last_name} has been diagnosed with Covid-19.</p>
-<p>Here are the following employees the person has been in contact with:</p>
+        <message_html><![CDATA[<p>Hi&nbsp; ${requested_for.manager},&nbsp;</p>
+<p>${requested_for.name} is showing Covid-19 symptoms.&nbsp;</p>
+<p>The following employees have been in contact with ${requested_for.name}:</p>
 <p>${colleagues_exposed}</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -48,7 +49,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>name.manager</recipient_fields>
+        <recipient_fields>requested_for.manager</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -63,15 +64,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5203ef79c8a90107f4448be8d32603f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Health Tracker Notification Sym $ Con</sys_name>
         <sys_overrides/>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>sysevent_email_action_b5203ef79c8a90107f4448be8d32603f</sys_update_name>
-        <sys_updated_by>JCastro</sys_updated_by>
-        <sys_updated_on>2020-07-23 22:28:30</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:02:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

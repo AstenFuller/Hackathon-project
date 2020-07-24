@@ -7,8 +7,8 @@
         <affected_field_on_event/>
         <category display_value="Health Tracker" name="Health Tracker">c518d23b9c4a90107f4448be8d32601a</category>
         <collection>x_cdltd_healthtrac_health_tracker</collection>
-        <condition table="x_cdltd_healthtrac_health_tracker">how_do_you_feel=no_symptoms^contact_covid=no_contact^EQ<item display_value="I do not have symptoms" endquery="false" field="how_do_you_feel" goto="false" newquery="false" operator="=" or="false" value="no_symptoms"/>
-            <item display_value="No" endquery="false" field="contact_covid" goto="false" newquery="false" operator="=" or="false" value="no_contact"/>
+        <condition table="x_cdltd_healthtrac_health_tracker">how_do_you_feel=no_symptoms^contact_covid=yes_contact^EQ<item display_value="I do not have symptoms" endquery="false" field="how_do_you_feel" goto="false" newquery="false" operator="=" or="false" value="no_symptoms"/>
+            <item display_value="Yes" endquery="false" field="contact_covid" goto="false" newquery="false" operator="=" or="false" value="yes_contact"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -38,15 +38,15 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi&nbsp; ${name.manager},&nbsp;</p>
-<p>${name.first_name} ${name.last_name} has reported no symptoms.</p>]]></message_html>
+        <message_html><![CDATA[<p>Hi&nbsp; ${requested_for.manager},&nbsp;</p>
+<p>${requested_for.name} has reported no symptoms but has been in contact with someone who has been diagnosed.</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Health Tracker Notification No Symptoms</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>name.manager</recipient_fields>
+        <recipient_fields>requested_for.manager</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -61,15 +61,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>abfeeeb79c8a90107f4448be8d326099</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Health Tracker Notification No Symptoms</sys_name>
         <sys_overrides/>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>sysevent_email_action_abfeeeb79c8a90107f4448be8d326099</sys_update_name>
-        <sys_updated_by>JCastro</sys_updated_by>
-        <sys_updated_on>2020-07-23 22:46:15</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:00:26</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

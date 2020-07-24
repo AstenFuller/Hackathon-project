@@ -38,15 +38,17 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi&nbsp; ${name.manager},&nbsp;</p>
-<p>${name.first_name} ${name.last_name} has been diagnosed with Covid-19.</p>]]></message_html>
+        <message_html><![CDATA[<p>Hi&nbsp; ${requested_for.manager},&nbsp;</p>
+<p>${requested_for.name} has been diagnosed with Covid-19. This is the link to the full report: ${URI_REF}.</p>
+<p>The following employees have been in contact with ${requested_for.name}:</p>
+<p>${colleagues_exposed}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Health Tracker Notification Has Symptoms</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>name.manager</recipient_fields>
+        <recipient_fields>requested_for.manager</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -61,15 +63,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6e61af79c4a90107f4448be8d326013</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Health Tracker Notification Has Symptoms</sys_name>
         <sys_overrides/>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>sysevent_email_action_d6e61af79c4a90107f4448be8d326013</sys_update_name>
-        <sys_updated_by>JCastro</sys_updated_by>
-        <sys_updated_on>2020-07-23 22:41:46</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:09:29</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

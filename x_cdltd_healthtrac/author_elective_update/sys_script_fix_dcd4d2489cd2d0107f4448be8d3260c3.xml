@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Adds users role</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script/>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 14:21:15</sys_created_on>
+        <sys_id>dcd4d2489cd2d0107f4448be8d3260c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adds users role</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_script_fix_dcd4d2489cd2d0107f4448be8d3260c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 14:21:15</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</application>
+        <file_path/>
+        <instance_id>7bedf7121b0e18d088c56288bd4bcb7a</instance_id>
+        <instance_name>adf-jul-822-dev-006</instance_name>
+        <name>sys_script_fix_dcd4d2489cd2d0107f4448be8d3260c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix"><sys_script_fix action="INSERT_OR_UPDATE"><active>true</active><before>false</before><description/><flush_cache>false</flush_cache><name>Adds users role</name><record_for_rollback>false</record_for_rollback><run_once>true</run_once><script/><sys_class_name>sys_script_fix</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-24 14:21:15</sys_created_on><sys_id>dcd4d2489cd2d0107f4448be8d3260c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adds users role</sys_name><sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package><sys_policy/><sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope><sys_update_name>sys_script_fix_dcd4d2489cd2d0107f4448be8d3260c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-24 14:21:15</sys_updated_on><unloadable>false</unloadable></sys_script_fix></record_update>]]></payload>
+        <payload_hash>1734573039</payload_hash>
+        <record_name>Adds users role</record_name>
+        <reverted_from/>
+        <source>fbba8fb39c0e90107f4448be8d32608b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 14:21:15</sys_created_on>
+        <sys_id>cbd4d2489cd2d0107f4448be8d3260cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173813316200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 14:21:15</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>07d4d248c2d2d0103ce755244020a5cb</update_guid>
+        <update_guid_history>07d4d248c2d2d0103ce755244020a5cb:1734573039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 14:29:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>22707c5aa34347318823c5702bca23e9</sys_id>
+        <sys_metadata>dcd4d2489cd2d0107f4448be8d3260c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adds users role</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_scope_delete display_value="">6da0277e50a84e18b95cb63c12c1dc40</sys_scope_delete>
+        <sys_update_name>sys_script_fix_dcd4d2489cd2d0107f4448be8d3260c3</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_dcd4d2489cd2d0107f4448be8d3260c3">cbd4d2489cd2d0107f4448be8d3260cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 14:29:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
