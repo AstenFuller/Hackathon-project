@@ -19,10 +19,13 @@
         <order/>
         <script><![CDATA[function onSubmit() {
    var answer = g_form.getValue("how_do_you_feel");
+	var answer_diagnosed = g_form.getValue("diagnosed");
 	
-	if(answer == "symptoms"){
-    alert('Since you have symptoms and have been diagnosed with Covid19.You are not allowed to come back to work for next 14 days. Please contact your manager for further instrucions.');	
-	}
+	if(answer == "symptoms" && answer_diagnosed == 'no'){
+		alert('Since you are showing COVID-19 symptoms, your manager will be in touch with your shortly.');	
+	} else if (answer == "symptoms" && answer_diagnosed == "yes"){
+		alert('Since you have been diagnosed with COVID-19, your manager will be in touch with your shortly.');
+	} else alert('Thank you for submitting your form. Your manager will be in touch with you shortly.')
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -31,15 +34,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fcdc43779c0e90107f4448be8d32604c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Alert for employee about leave day </sys_name>
         <sys_overrides/>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>catalog_script_client_fcdc43779c0e90107f4448be8d32604c</sys_update_name>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-24 01:26:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:48:09</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

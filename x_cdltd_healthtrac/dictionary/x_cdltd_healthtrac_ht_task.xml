@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="HT Task last" max_length="40" name="x_cdltd_healthtrac_ht_task" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="HT Task last" max_length="40" name="x_cdltd_healthtrac_ht_task" sizeclass="12" type="collection">
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Exposed coworkers test" max_length="1024" name="coworkers_exposed" type="glide_list"/>
         <element label="Diagnosed" max_length="32" name="diagnosed" type="string"/>
         <element label="Do you want to notify employees?" max_length="40" name="do_you_want_to_notify_employees" reference="x_cdltd_healthtrac_health_tracker" type="string"/>

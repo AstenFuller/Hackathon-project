@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Flow to trigger health tracker application.</description>
         <internal_name>healthtrackerflow</internal_name>
-        <label_cache>[{"name":"Created_1.current.requested_for.manager.email","label":"Trigger➛Health Tracker Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.requested_for.first_name","label":"Trigger➛Health Tracker Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.requested_for.email","label":"Trigger➛Health Tracker Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a163f367-e4e6-4394-99dd-ab2c38ab6f39.email","label":"2.2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.coworker_exposed","label":"Trigger➛Health Tracker Record➛Who from work?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"coworker_exposed"},{"name":"Created_1.current.requested_for","label":"Trigger➛Health Tracker Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"requested_for"},{"name":"Created_1.current.symptoms","label":"Trigger➛Health Tracker Record➛Please describe your symptoms below:","reference":"","reference_display":"Please describe your symptoms below:","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"symptoms"},{"name":"Created_1.current.colleagues_exposed","label":"Trigger➛Health Tracker Record➛Who have you been in contact with?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"colleagues_exposed"},{"name":"Created_1.current.name.name","label":"Trigger➛Health Tracker Record➛Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.sys_id","label":"Trigger➛Health Tracker Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"sys_id"},{"name":"dfe7a80a-95a1-4cdf-b53a-58c2dbe18824.email","label":"1.2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.table_name","label":"1.1➛Health Tracker Task Table","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.record","label":"1.1➛Health Tracker Task Record","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger➛Health Tracker Table","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.name.sys_id","label":"Trigger➛Health Tracker Record➛Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.name.manager.first_name","label":"Trigger➛Health Tracker Record➛Name➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.name","label":"Trigger➛Health Tracker Record➛Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"name"},{"name":"Created_1.current.name.manager.email","label":"Trigger➛Health Tracker Record➛Name➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.name.manager","label":"Trigger➛Health Tracker Record➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger➛Health Tracker Record","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"reference","base_type":"reference","attributes":{}},{"name":"9f101175-98f1-4f3d-a677-b20804615eee.email","label":"1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.how_do_you_feel","label":"Trigger➛Health Tracker Record➛How do you feel today?","reference":"","reference_display":"How do you feel today?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"how_do_you_feel"},{"name":"Created_1.current.diagnosed","label":"Trigger➛Health Tracker Record➛Have you been diagnosed?","reference":"","reference_display":"Have you been diagnosed?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"diagnosed"},{"name":"3667a356-7323-458e-9fed-03327f39a451.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3667a356-7323-458e-9fed-03327f39a451.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Records","label":"1.2➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Table","label":"1.2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Count","label":"1.2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0edf053-f58c-4add-94f3-be738a221838.item","label":"1.3➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.record","label":"1.3.1➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.table_name","label":"1.3.1➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.do_you_have_work_trips","label":"Trigger➛Health Tracker Record➛Do you have any work related trips scheduled? (do_you_have_work_trips)","reference":"","reference_display":"Do you have any work related trips scheduled? (do_you_have_work_trips)","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"do_you_have_work_trips"},{"name":"1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state","label":"2.1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.requested_for.manager","label":"Trigger➛Health Tracker Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.approval","label":"Trigger➛Health Tracker Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"approval"},{"name":"7a3f06b0-3e0b-4fa2-a209-89f898a6153b.email","label":"2.3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586e609b-c345-4212-99ef-180ca9888897.record","label":"1.1➛HT Task last Record","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586e609b-c345-4212-99ef-180ca9888897.table_name","label":"1.1➛HT Task last Table","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.requested_for.name","label":"Trigger➛Health Tracker Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.number","label":"Trigger➛Health Tracker Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.contact_covid","label":"Trigger➛Health Tracker Record➛Have you been in contact with anyone with COVID in the last 14 days?","reference":"","reference_display":"Have you been in contact with anyone with COVID in the last 14 days?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"contact_covid"},{"name":"Created_1.current.number","label":"Trigger➛Health Tracker Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"number"},{"name":"Created_1.current.requested_for.name","label":"Trigger➛Health Tracker Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"586e609b-c345-4212-99ef-180ca9888897.table_name","label":"1.1➛HT Task last Table","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586e609b-c345-4212-99ef-180ca9888897.record","label":"1.1➛HT Task last Record","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a3f06b0-3e0b-4fa2-a209-89f898a6153b.email","label":"2.3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.approval","label":"Trigger➛Health Tracker Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"approval"},{"name":"Created_1.current.requested_for.manager","label":"Trigger➛Health Tracker Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state","label":"2.1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.do_you_have_work_trips","label":"Trigger➛Health Tracker Record➛Do you have any work related trips scheduled? (do_you_have_work_trips)","reference":"","reference_display":"Do you have any work related trips scheduled? (do_you_have_work_trips)","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"do_you_have_work_trips"},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.table_name","label":"1.3.1➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.record","label":"1.3.1➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0edf053-f58c-4add-94f3-be738a221838.item","label":"1.3➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Count","label":"1.2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Table","label":"1.2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Records","label":"1.2➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3667a356-7323-458e-9fed-03327f39a451.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3667a356-7323-458e-9fed-03327f39a451.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.diagnosed","label":"Trigger➛Health Tracker Record➛Have you been diagnosed?","reference":"","reference_display":"Have you been diagnosed?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"diagnosed"},{"name":"Created_1.current.how_do_you_feel","label":"Trigger➛Health Tracker Record➛How do you feel?","reference":"","reference_display":"How do you feel?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"how_do_you_feel"},{"name":"9f101175-98f1-4f3d-a677-b20804615eee.email","label":"1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Health Tracker Record","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.name.manager","label":"Trigger➛Health Tracker Record➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.name.manager.email","label":"Trigger➛Health Tracker Record➛Name➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.name","label":"Trigger➛Health Tracker Record➛Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"name"},{"name":"Created_1.current.name.manager.first_name","label":"Trigger➛Health Tracker Record➛Name➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.name.sys_id","label":"Trigger➛Health Tracker Record➛Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger➛Health Tracker Table","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.record","label":"1.1➛Health Tracker Task Record","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.table_name","label":"1.1➛Health Tracker Task Table","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dfe7a80a-95a1-4cdf-b53a-58c2dbe18824.email","label":"1.2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_id","label":"Trigger➛Health Tracker Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"sys_id"},{"name":"Created_1.current.name.name","label":"Trigger➛Health Tracker Record➛Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.colleagues_exposed","label":"Trigger➛Health Tracker Record➛Who have you been in contact with?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"colleagues_exposed"},{"name":"Created_1.current.symptoms","label":"Trigger➛Health Tracker Record➛Please describe your symptoms below:","reference":"","reference_display":"Please describe your symptoms below:","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"symptoms"},{"name":"Created_1.current.requested_for","label":"Trigger➛Health Tracker Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"requested_for"},{"name":"Created_1.current.coworker_exposed","label":"Trigger➛Health Tracker Record➛Who from work?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"coworker_exposed"},{"name":"a163f367-e4e6-4394-99dd-ab2c38ab6f39.email","label":"2.2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.requested_for.email","label":"Trigger➛Health Tracker Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.requested_for.first_name","label":"Trigger➛Health Tracker Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.requested_for.manager.email","label":"Trigger➛Health Tracker Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"b12510dc-dc5e-4a19-87e5-6b0840903db7.item","label":"1.3➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a02ad587-b548-4459-a660-1ddff9560496.record","label":"1.3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a02ad587-b548-4459-a660-1ddff9560496.table_name","label":"1.3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot>55d9fa009c56d0107f4448be8d326078</latest_snapshot>
         <master_snapshot>6d53aaff9c4a90107f4448be8d3260e0</master_snapshot>
         <name>HealthTrackerFlow</name>
@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9d0c0a339c4a90107f4448be8d32604d</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>HealthTrackerFlow</sys_name>
         <sys_overrides/>
         <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name>sys_hub_flow_9d0c0a339c4a90107f4448be8d32604d</sys_update_name>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9d0c0a339c4a90107f4448be8d32604d"/>
@@ -67,7 +67,7 @@
         <sys_updated_on>2020-07-23 20:46:03</sys_updated_on>
         <table>x_cdltd_healthtrac_health_tracker</table>
     </sys_flow_record_trigger>
-    <sys_hub_flow_component action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN1335c40c9c9e90107f4448be8d3260e5,37a118449cde90107f4448be8d3260f6,43f7cfff9cca90107f4448be8d326095,5f35c40c9c9e90107f4448be8d3260e9,7670dc049cde90107f4448be8d326001,7fa118449cde90107f4448be8d3260ec,83f7cfff9cca90107f4448be8d326099,87f7cfff9cca90107f4448be8d32609b,9c9594089cde90107f4448be8d32603d,c1b1eabf9c4a90107f4448be8d326062,f7a118449cde90107f4448be8d3260f2"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN1335c40c9c9e90107f4448be8d3260e5,3250c3849c56d0107f4448be8d326074,37a118449cde90107f4448be8d3260f6,43f7cfff9cca90107f4448be8d326095,5f35c40c9c9e90107f4448be8d3260e9,7670dc049cde90107f4448be8d326001,7fa118449cde90107f4448be8d3260ec,9c9594089cde90107f4448be8d32603d,c1b1eabf9c4a90107f4448be8d326062,f7a118449cde90107f4448be8d3260f2,fa50c3849c56d0107f4448be8d326077"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -83,10 +83,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:45</sys_created_on>
         <sys_id>1335c40c9c9e90107f4448be8d3260e5</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1335c40c9c9e90107f4448be8d3260e5"/>
@@ -193,6 +193,79 @@
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>3250c3849c56d0107f4448be8d326074</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3250c3849c56d0107f4448be8d326074"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3250c3849c56d0107f4448be8d326074</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>7650c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3250c3849c56d0107f4448be8d326074"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>3250c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>7a50c3849c56d0107f4448be8d326075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>f250c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7fa118449cde90107f4448be8d3260f5</block>
         <comment/>
@@ -213,10 +286,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>37a118449cde90107f4448be8d3260f6</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -276,10 +349,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 23:26:08</sys_created_on>
         <sys_id>43f7cfff9cca90107f4448be8d326095</sys_id>
-        <sys_mod_count>134</sys_mod_count>
+        <sys_mod_count>144</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=43f7cfff9cca90107f4448be8d326095"/>
@@ -342,10 +415,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:46</sys_created_on>
         <sys_id>5f35c40c9c9e90107f4448be8d3260e9</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -405,10 +478,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:42:53</sys_created_on>
         <sys_id>7670dc049cde90107f4448be8d326001</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7670dc049cde90107f4448be8d326001"/>
@@ -549,10 +622,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>7fa118449cde90107f4448be8d3260ec</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -600,121 +673,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
-        <order>1.3.1</order>
-        <parent_ui_id>c0edf053-f58c-4add-94f3-be738a221838</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>83f7cfff9cca90107f4448be8d326099</sys_id>
-        <sys_mod_count>134</sys_mod_count>
-        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
-        <ui_id>586d6473-1cb2-4671-8b47-1d39f1b143b0</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=83f7cfff9cca90107f4448be8d326099"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>83f7cfff9cca90107f4448be8d326099</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>cbf7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <value>task</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=83f7cfff9cca90107f4448be8d326099"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>87f7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{c0edf053-f58c-4add-94f3-be738a221838.item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>c3f7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>4bf7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-24 04:19:35</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">cff7cfff9cca90107f4448be8d32609a</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>1.3</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>87f7cfff9cca90107f4448be8d32609b</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
-        <ui_id>c0edf053-f58c-4add-94f3-be738a221838</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=87f7cfff9cca90107f4448be8d32609b"/>
-    <sys_element_mapping action="delete_multiple" query="id=87f7cfff9cca90107f4448be8d32609b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>items</field>
-        <id>87f7cfff9cca90107f4448be8d32609b</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>c7f7cfff9cca90107f4448be8d32609d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
-        <value>{{188453a0-292d-452a-9c0b-7e837aab9a36.Records}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment/>
@@ -727,10 +685,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 05:05:06</sys_created_on>
         <sys_id>9c9594089cde90107f4448be8d32603d</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c9594089cde90107f4448be8d32603d"/>
@@ -793,10 +751,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:38:53</sys_created_on>
         <sys_id>c1b1eabf9c4a90107f4448be8d326062</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -823,11 +781,11 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:38:53</sys_created_on>
         <sys_id>01b1eabf9c4a90107f4448be8d326066</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:58:26</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:22:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+        <value>{{Created_1.current.how_do_you_feel}}=symptoms^NQ{{Created_1.current.diagnosed}}=yes_diagnosed^NQ{{Created_1.current.contact_covid}}=yes_contact</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -856,10 +814,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>f7a118449cde90107f4448be8d3260f2</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f7a118449cde90107f4448be8d3260f2"/>
@@ -982,6 +940,34 @@
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>fa50c3849c56d0107f4448be8d326077</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa50c3849c56d0107f4448be8d326077"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT INc9b1eabf9c4a90107f4448be8d326056"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -992,10 +978,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:38:53</sys_created_on>
         <sys_id>c9b1eabf9c4a90107f4448be8d326056</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1205,7 +1191,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN1335c40c9c9e90107f4448be8d3260e5,43f7cfff9cca90107f4448be8d326095,7670dc049cde90107f4448be8d326001,83f7cfff9cca90107f4448be8d326099,9c9594089cde90107f4448be8d32603d,f7a118449cde90107f4448be8d3260f2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN1335c40c9c9e90107f4448be8d3260e5,3250c3849c56d0107f4448be8d326074,43f7cfff9cca90107f4448be8d326095,7670dc049cde90107f4448be8d326001,9c9594089cde90107f4448be8d32603d,f7a118449cde90107f4448be8d3260f2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1221,10 +1207,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:45</sys_created_on>
         <sys_id>1335c40c9c9e90107f4448be8d3260e5</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1335c40c9c9e90107f4448be8d3260e5"/>
@@ -1334,6 +1320,79 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>3250c3849c56d0107f4448be8d326074</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3250c3849c56d0107f4448be8d326074"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3250c3849c56d0107f4448be8d326074</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>7650c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3250c3849c56d0107f4448be8d326074"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>3250c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>7a50c3849c56d0107f4448be8d326075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3250c3849c56d0107f4448be8d326074</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>f250c3849c56d0107f4448be8d326076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
@@ -1346,10 +1405,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 23:26:08</sys_created_on>
         <sys_id>43f7cfff9cca90107f4448be8d326095</sys_id>
-        <sys_mod_count>134</sys_mod_count>
+        <sys_mod_count>144</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=43f7cfff9cca90107f4448be8d326095"/>
@@ -1407,10 +1466,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:42:53</sys_created_on>
         <sys_id>7670dc049cde90107f4448be8d326001</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7670dc049cde90107f4448be8d326001"/>
@@ -1534,79 +1593,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
-        <order>1.3.1</order>
-        <parent_ui_id>c0edf053-f58c-4add-94f3-be738a221838</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>83f7cfff9cca90107f4448be8d326099</sys_id>
-        <sys_mod_count>134</sys_mod_count>
-        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
-        <ui_id>586d6473-1cb2-4671-8b47-1d39f1b143b0</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=83f7cfff9cca90107f4448be8d326099"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>83f7cfff9cca90107f4448be8d326099</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>cbf7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <value>task</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=83f7cfff9cca90107f4448be8d326099"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>87f7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{c0edf053-f58c-4add-94f3-be738a221838.item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>c3f7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>83f7cfff9cca90107f4448be8d326099</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>4bf7cfff9cca90107f4448be8d32609a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-24 04:19:35</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment/>
@@ -1619,10 +1605,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 05:05:06</sys_created_on>
         <sys_id>9c9594089cde90107f4448be8d32603d</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c9594089cde90107f4448be8d32603d"/>
@@ -1680,10 +1666,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>f7a118449cde90107f4448be8d3260f2</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f7a118449cde90107f4448be8d3260f2"/>
@@ -1806,7 +1792,7 @@
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN37a118449cde90107f4448be8d3260f6,5f35c40c9c9e90107f4448be8d3260e9,7fa118449cde90107f4448be8d3260ec,87f7cfff9cca90107f4448be8d32609b,c1b1eabf9c4a90107f4448be8d326062"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN37a118449cde90107f4448be8d3260f6,5f35c40c9c9e90107f4448be8d3260e9,7fa118449cde90107f4448be8d3260ec,c1b1eabf9c4a90107f4448be8d326062,fa50c3849c56d0107f4448be8d326077"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7fa118449cde90107f4448be8d3260f5</block>
         <comment/>
@@ -1827,10 +1813,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>37a118449cde90107f4448be8d3260f6</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1895,10 +1881,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:46</sys_created_on>
         <sys_id>5f35c40c9c9e90107f4448be8d3260e9</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:09</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1963,10 +1949,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:08</sys_created_on>
         <sys_id>7fa118449cde90107f4448be8d3260ec</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2012,48 +1998,6 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">cff7cfff9cca90107f4448be8d32609a</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>1.3</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>87f7cfff9cca90107f4448be8d32609b</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
-        <ui_id>c0edf053-f58c-4add-94f3-be738a221838</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=87f7cfff9cca90107f4448be8d32609b"/>
-    <sys_element_mapping action="delete_multiple" query="id=87f7cfff9cca90107f4448be8d32609b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>items</field>
-        <id>87f7cfff9cca90107f4448be8d32609b</id>
-        <sys_created_by>MKostecki</sys_created_by>
-        <sys_created_on>2020-07-23 23:26:08</sys_created_on>
-        <sys_id>c7f7cfff9cca90107f4448be8d32609d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>MKostecki</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:26:08</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
-        <value>{{188453a0-292d-452a-9c0b-7e837aab9a36.Records}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">85b1eabf9c4a90107f4448be8d326061</block>
         <comment/>
         <connected_to/>
@@ -2073,10 +2017,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:38:53</sys_created_on>
         <sys_id>c1b1eabf9c4a90107f4448be8d326062</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 17:15:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
         <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2103,11 +2047,11 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:38:53</sys_created_on>
         <sys_id>01b1eabf9c4a90107f4448be8d326066</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:58:26</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:22:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+        <value>{{Created_1.current.how_do_you_feel}}=symptoms^NQ{{Created_1.current.diagnosed}}=yes_diagnosed^NQ{{Created_1.current.contact_covid}}=yes_contact</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2121,6 +2065,34 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HealthTrackerFlow">9d0c0a339c4a90107f4448be8d32604d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:18</sys_created_on>
+        <sys_id>fa50c3849c56d0107f4448be8d326077</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:09</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa50c3849c56d0107f4448be8d326077"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9d0c0a339c4a90107f4448be8d32604d^sys_idNOT IN2fa46e339c8a90107f4448be8d32605a,67a46e339c8a90107f4448be8d32605b,6ba46e339c8a90107f4448be8d32605a,86d226ff9c4a90107f4448be8d326046,b6c5364c9c16d0107f4448be8d326094,bac5364c9c16d0107f4448be8d326093,c2d226ff9c4a90107f4448be8d326046,cdb1eabf9c4a90107f4448be8d326068,f2c5364c9c16d0107f4448be8d326093,f2c5364c9c16d0107f4448be8d326094"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>9d0c0a339c4a90107f4448be8d32604d</attached_to>
@@ -2397,7 +2369,7 @@
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=6d53aaff9c4a90107f4448be8d3260e0"/>
     <sys_variable_value action="delete_multiple" query="document_key=6d53aaff9c4a90107f4448be8d3260e0"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0145480c9c9e90107f4448be8d326087,0d45480c9c9e90107f4448be8d326094,29b1d8449cde90107f4448be8d32604e,57cec7b79c0e90107f4448be8d326090,65b1d8449cde90107f4448be8d326040,69b1d8449cde90107f4448be8d32603a,9fcec7b79c0e90107f4448be8d32608b,a96654489cde90107f4448be8d3260ae,adb1d8449cde90107f4448be8d326051,d3cec7b79c0e90107f4448be8d326098,f953eaff9c4a90107f4448be8d32602c"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0145480c9c9e90107f4448be8d326087,0d45480c9c9e90107f4448be8d326094,29b1d8449cde90107f4448be8d32604e,57cec7b79c0e90107f4448be8d326090,5e6087849c56d0107f4448be8d326047,65b1d8449cde90107f4448be8d326040,69b1d8449cde90107f4448be8d32603a,9e6087849c56d0107f4448be8d32604f,9fcec7b79c0e90107f4448be8d32608b,a96654489cde90107f4448be8d3260ae,adb1d8449cde90107f4448be8d326051,d3cec7b79c0e90107f4448be8d326098,f953eaff9c4a90107f4448be8d32602c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2407,16 +2379,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.1</order>
+        <order>2.1</order>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:53</sys_created_on>
         <sys_id>0145480c9c9e90107f4448be8d326087</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0145480c9c9e90107f4448be8d326087"/>
@@ -2535,7 +2507,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2543,10 +2515,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:53</sys_created_on>
         <sys_id>0d45480c9c9e90107f4448be8d326094</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2603,7 +2575,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4.2</order>
+        <order>2.2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
@@ -2611,10 +2583,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>29b1d8449cde90107f4448be8d32604e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2735,22 +2707,95 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>5e6087849c56d0107f4448be8d326047</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e6087849c56d0107f4448be8d326047"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e6087849c56d0107f4448be8d326047</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>966087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e6087849c56d0107f4448be8d326047"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>526087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>9e6087849c56d0107f4448be8d326048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>166087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <comment/>
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.3.1</order>
+        <order>2.3.1</order>
         <parent_ui_id>71f33ac2-8e93-40ef-987b-362452738b49</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>65b1d8449cde90107f4448be8d326040</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65b1d8449cde90107f4448be8d326040"/>
@@ -2882,16 +2927,16 @@
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.2.1</order>
+        <order>2.2.1</order>
         <parent_ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>69b1d8449cde90107f4448be8d32603a</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=69b1d8449cde90107f4448be8d32603a"/>
@@ -3012,6 +3057,34 @@
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>9e6087849c56d0107f4448be8d32604f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9e6087849c56d0107f4448be8d32604f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -3021,16 +3094,16 @@
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>2</order>
-        <parent_ui_id/>
+        <order>1.2</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>AFuller</sys_created_by>
         <sys_created_on>2020-07-23 23:55:55</sys_created_on>
         <sys_id>9fcec7b79c0e90107f4448be8d32608b</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9fcec7b79c0e90107f4448be8d32608b"/>
@@ -3088,10 +3161,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 05:08:44</sys_created_on>
         <sys_id>a96654489cde90107f4448be8d3260ae</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a96654489cde90107f4448be8d3260ae"/>
@@ -3146,7 +3219,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4.3</order>
+        <order>2.3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
@@ -3154,10 +3227,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>adb1d8449cde90107f4448be8d326051</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3264,10 +3337,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>f953eaff9c4a90107f4448be8d32602c</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3294,11 +3367,11 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>f953eaff9c4a90107f4448be8d32602f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:58:33</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+        <value>{{Created_1.current.how_do_you_feel}}=symptoms^NQ{{Created_1.current.diagnosed}}=yes_diagnosed^NQ{{Created_1.current.contact_covid}}=yes_contact</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -3322,10 +3395,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>3953eaff9c4a90107f4448be8d326036</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:08</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -3435,14 +3508,14 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:01</sys_created_on>
         <sys_id>2553aaff9c4a90107f4448be8d3260e3</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:05</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3516,14 +3589,14 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>f953eaff9c4a90107f4448be8d326014</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:05</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3535,7 +3608,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0145480c9c9e90107f4448be8d326087,57cec7b79c0e90107f4448be8d326090,65b1d8449cde90107f4448be8d326040,69b1d8449cde90107f4448be8d32603a,9fcec7b79c0e90107f4448be8d32608b,a96654489cde90107f4448be8d3260ae"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0145480c9c9e90107f4448be8d326087,57cec7b79c0e90107f4448be8d326090,5e6087849c56d0107f4448be8d326047,65b1d8449cde90107f4448be8d326040,69b1d8449cde90107f4448be8d32603a,9fcec7b79c0e90107f4448be8d32608b,a96654489cde90107f4448be8d3260ae"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -3545,16 +3618,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.1</order>
+        <order>2.1</order>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:53</sys_created_on>
         <sys_id>0145480c9c9e90107f4448be8d326087</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0145480c9c9e90107f4448be8d326087"/>
@@ -3737,22 +3810,95 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>5e6087849c56d0107f4448be8d326047</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e6087849c56d0107f4448be8d326047"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e6087849c56d0107f4448be8d326047</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>966087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e6087849c56d0107f4448be8d326047"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>526087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>9e6087849c56d0107f4448be8d326048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5e6087849c56d0107f4448be8d326047</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>166087849c56d0107f4448be8d326049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <comment/>
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.3.1</order>
+        <order>2.3.1</order>
         <parent_ui_id>71f33ac2-8e93-40ef-987b-362452738b49</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>65b1d8449cde90107f4448be8d326040</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65b1d8449cde90107f4448be8d326040"/>
@@ -3884,16 +4030,16 @@
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>4.2.1</order>
+        <order>2.2.1</order>
         <parent_ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>69b1d8449cde90107f4448be8d32603a</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=69b1d8449cde90107f4448be8d32603a"/>
@@ -4023,16 +4169,16 @@
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
-        <order>2</order>
-        <parent_ui_id/>
+        <order>1.2</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>AFuller</sys_created_by>
         <sys_created_on>2020-07-23 23:55:55</sys_created_on>
         <sys_id>9fcec7b79c0e90107f4448be8d32608b</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9fcec7b79c0e90107f4448be8d32608b"/>
@@ -4090,10 +4236,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 05:08:44</sys_created_on>
         <sys_id>a96654489cde90107f4448be8d3260ae</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a96654489cde90107f4448be8d3260ae"/>
@@ -4136,7 +4282,7 @@
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value>requested_for={{Created_1.current.requested_for.name}}^diagnosed={{Created_1.current.diagnosed}}^exposed_coworkers={{Created_1.current.coworker_exposed}}^symptoms={{Created_1.current.symptoms}}^parent={{Created_1.current.number}}^assignment_group={"display":"Health Tracker Group","value":"d99270c89c12d0107f4448be8d3260f1"}^coworkers_exposed={{Created_1.current.colleagues_exposed}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0d45480c9c9e90107f4448be8d326094,29b1d8449cde90107f4448be8d32604e,adb1d8449cde90107f4448be8d326051,d3cec7b79c0e90107f4448be8d326098,f953eaff9c4a90107f4448be8d32602c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6d53aaff9c4a90107f4448be8d3260e0^sys_idNOT IN0d45480c9c9e90107f4448be8d326094,29b1d8449cde90107f4448be8d32604e,9e6087849c56d0107f4448be8d32604f,adb1d8449cde90107f4448be8d326051,d3cec7b79c0e90107f4448be8d326098,f953eaff9c4a90107f4448be8d32602c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">9335c40c9c9e90107f4448be8d3260e9</block>
         <comment/>
@@ -4149,7 +4295,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -4157,10 +4303,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 03:53:53</sys_created_on>
         <sys_id>0d45480c9c9e90107f4448be8d326094</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4217,7 +4363,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4.2</order>
+        <order>2.2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
@@ -4225,10 +4371,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>29b1d8449cde90107f4448be8d32604e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4274,6 +4420,34 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HealthTrackerFlow">6d53aaff9c4a90107f4448be8d3260e0</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:31:32</sys_created_on>
+        <sys_id>9e6087849c56d0107f4448be8d32604f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9e6087849c56d0107f4448be8d32604f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7fa118449cde90107f4448be8d3260f5</block>
         <comment/>
         <connected_to/>
@@ -4285,7 +4459,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4.3</order>
+        <order>2.3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
@@ -4293,10 +4467,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 04:48:15</sys_created_on>
         <sys_id>adb1d8449cde90107f4448be8d326051</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4403,10 +4577,10 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>f953eaff9c4a90107f4448be8d32602c</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-24 16:45:06</sys_updated_on>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4433,11 +4607,11 @@
         <sys_created_by>MKostecki</sys_created_by>
         <sys_created_on>2020-07-23 20:46:02</sys_created_on>
         <sys_id>f953eaff9c4a90107f4448be8d32602f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>AFuller</sys_updated_by>
-        <sys_updated_on>2020-07-23 23:58:33</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 19:23:12</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+        <value>{{Created_1.current.how_do_you_feel}}=symptoms^NQ{{Created_1.current.diagnosed}}=yes_diagnosed^NQ{{Created_1.current.contact_covid}}=yes_contact</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>

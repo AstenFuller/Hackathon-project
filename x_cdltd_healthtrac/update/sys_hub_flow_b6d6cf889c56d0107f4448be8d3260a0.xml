@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1-02-19-2020</compiler_build>
+        <copied_from>9d0c0a339c4a90107f4448be8d32604d</copied_from>
+        <copied_from_name>HealthTrackerFlow</copied_from_name>
+        <description>Flow to trigger health tracker application.</description>
+        <internal_name>record_producer_healthtrackerflow</internal_name>
+        <label_cache>[{"name":"a02ad587-b548-4459-a660-1ddff9560496.table_name","label":"1.3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a02ad587-b548-4459-a660-1ddff9560496.record","label":"1.3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b12510dc-dc5e-4a19-87e5-6b0840903db7.item","label":"1.3➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created_1.current.requested_for.manager.email","label":"Trigger➛Health Tracker Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.requested_for.first_name","label":"Trigger➛Health Tracker Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.requested_for.email","label":"Trigger➛Health Tracker Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a163f367-e4e6-4394-99dd-ab2c38ab6f39.email","label":"2.2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.coworker_exposed","label":"Trigger➛Health Tracker Record➛Who from work?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"coworker_exposed"},{"name":"Created_1.current.requested_for","label":"Trigger➛Health Tracker Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"requested_for"},{"name":"Created_1.current.symptoms","label":"Trigger➛Health Tracker Record➛Please describe your symptoms below:","reference":"","reference_display":"Please describe your symptoms below:","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"symptoms"},{"name":"Created_1.current.colleagues_exposed","label":"Trigger➛Health Tracker Record➛Who have you been in contact with?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"colleagues_exposed"},{"name":"Created_1.current.name.name","label":"Trigger➛Health Tracker Record➛Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.sys_id","label":"Trigger➛Health Tracker Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"sys_id"},{"name":"dfe7a80a-95a1-4cdf-b53a-58c2dbe18824.email","label":"1.2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.table_name","label":"1.1➛Health Tracker Task Table","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e4f37c4-7e59-4346-8a06-57027ed55249.record","label":"1.1➛Health Tracker Task Record","reference":"x_cdltd_healthtrac_task","reference_display":"Health Tracker Task original","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger➛Health Tracker Table","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf705bfb-b24f-444b-b9a0-f2ba1a9dd1e3.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.name.sys_id","label":"Trigger➛Health Tracker Record➛Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.name.manager.first_name","label":"Trigger➛Health Tracker Record➛Name➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.name","label":"Trigger➛Health Tracker Record➛Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"name"},{"name":"Created_1.current.name.manager.email","label":"Trigger➛Health Tracker Record➛Name➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.name.manager","label":"Trigger➛Health Tracker Record➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger➛Health Tracker Record","reference":"x_cdltd_healthtrac_health_tracker","reference_display":"Health Tracker","type":"reference","base_type":"reference","attributes":{}},{"name":"9f101175-98f1-4f3d-a677-b20804615eee.email","label":"1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.how_do_you_feel","label":"Trigger➛Health Tracker Record➛How do you feel today?","reference":"","reference_display":"How do you feel today?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"how_do_you_feel"},{"name":"Created_1.current.diagnosed","label":"Trigger➛Health Tracker Record➛Have you been diagnosed?","reference":"","reference_display":"Have you been diagnosed?","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"diagnosed"},{"name":"3667a356-7323-458e-9fed-03327f39a451.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3667a356-7323-458e-9fed-03327f39a451.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"798e4830-785d-46c0-b23c-1ad2b17bbdd4.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Records","label":"1.2➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Table","label":"1.2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"188453a0-292d-452a-9c0b-7e837aab9a36.Count","label":"1.2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0edf053-f58c-4add-94f3-be738a221838.item","label":"1.3➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.record","label":"1.3.1➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586d6473-1cb2-4671-8b47-1d39f1b143b0.table_name","label":"1.3.1➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.do_you_have_work_trips","label":"Trigger➛Health Tracker Record➛Do you have any work related trips scheduled? (do_you_have_work_trips)","reference":"","reference_display":"Do you have any work related trips scheduled? (do_you_have_work_trips)","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"do_you_have_work_trips"},{"name":"1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state","label":"2.1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.requested_for.manager","label":"Trigger➛Health Tracker Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.approval","label":"Trigger➛Health Tracker Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"approval"},{"name":"7a3f06b0-3e0b-4fa2-a209-89f898a6153b.email","label":"2.3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586e609b-c345-4212-99ef-180ca9888897.record","label":"1.1➛HT Task last Record","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"586e609b-c345-4212-99ef-180ca9888897.table_name","label":"1.1➛HT Task last Table","reference":"x_cdltd_healthtrac_ht_task","reference_display":"HT Task last","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.requested_for.name","label":"Trigger➛Health Tracker Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.number","label":"Trigger➛Health Tracker Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_healthtrac_health_tracker","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Record Producer_HealthTrackerFlow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Producer_HealthTrackerFlow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>sys_hub_flow_b6d6cf889c56d0107f4448be8d3260a0</sys_update_name>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6d6cf889c56d0107f4448be8d3260a0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260a0"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN32d6cf889c56d0107f4448be8d3260c0,36d6cf889c56d0107f4448be8d3260d1,36d6cf889c56d0107f4448be8d3260db,72d6cf889c56d0107f4448be8d3260c8,72d6cf889c56d0107f4448be8d3260cd,76d6cf889c56d0107f4448be8d3260b5,7ad6cf889c56d0107f4448be8d3260d5,b6d6cf889c56d0107f4448be8d3260b8,b6d6cf889c56d0107f4448be8d3260c3,b6d6cf889c56d0107f4448be8d3260e1,bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fa118449cde90107f4448be8d3260f5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32d6cf889c56d0107f4448be8d3260c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>32d6cf889c56d0107f4448be8d3260c0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>Approval Rejected</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32d6cf889c56d0107f4448be8d3260c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>32d6cf889c56d0107f4448be8d3260c0</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>32d6cf889c56d0107f4448be8d3260c0</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6cf889c56d0107f4448be8d3260d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260d1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36d6cf889c56d0107f4448be8d3260d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ed6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6cf889c56d0107f4448be8d3260db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>Good news Your Trips Have been Approved</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36d6cf889c56d0107f4448be8d3260db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fa6be05f-ecc5-437d-9576-edefdb7c43ce}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fa6be05f-ecc5-437d-9576-edefdb7c43ce}}"&gt;Trigger➛Health Tracker Record➛Requested for➛First name&lt;button id="transform_function_facade_fa6be05f-ecc5-437d-9576-edefdb7c43ce" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Good news Your Trips Have been Approved. &lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Have a nice trip.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f2d6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ed6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.1</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72d6cf889c56d0107f4448be8d3260c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72d6cf889c56d0107f4448be8d3260c8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>f2d6cf889c56d0107f4448be8d3260ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>x_cdltd_healthtrac_ht_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72d6cf889c56d0107f4448be8d3260c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72d6cf889c56d0107f4448be8d3260c8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bed6cf889c56d0107f4448be8d3260c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72d6cf889c56d0107f4448be8d3260c8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>requested_for={{Created_1.current.requested_for.name}}^diagnosed={{Created_1.current.diagnosed}}^exposed_coworkers={{Created_1.current.coworker_exposed}}^symptoms={{Created_1.current.symptoms}}^parent={{Created_1.current.number}}^assignment_group={"display":"Health Tracker Group","value":"d99270c89c12d0107f4448be8d3260f1"}^coworkers_exposed={{Created_1.current.colleagues_exposed}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.2</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72d6cf889c56d0107f4448be8d3260cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72d6cf889c56d0107f4448be8d3260cd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72d6cf889c56d0107f4448be8d3260cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>72d6cf889c56d0107f4448be8d3260cd</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>assigned_to={{Created_1.current.requested_for}}^state=1^ORstate=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>72d6cf889c56d0107f4448be8d3260cd</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=76d6cf889c56d0107f4448be8d3260b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.1</order>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad6cf889c56d0107f4448be8d3260d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ad6cf889c56d0107f4448be8d3260d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejects1#U[{{Created_1.current.requested_for.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">85b1eabf9c4a90107f4448be8d326061</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260b8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>If User has symptoms</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b6d6cf889c56d0107f4448be8d3260b8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260b8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9335c40c9c9e90107f4448be8d3260e9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260c3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>If Trip Scheduled</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b6d6cf889c56d0107f4448be8d3260c3</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bed6cf889c56d0107f4448be8d3260c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.do_you_have_work_trips}}=yes</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260c3</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fad6cf889c56d0107f4448be8d3260c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.3.1</order>
+        <parent_ui_id>71f33ac2-8e93-40ef-987b-362452738b49</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>Trips Rejection approval </value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db13cf3f-f436-4fa7-97dc-020a26d743fd}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:db13cf3f-f436-4fa7-97dc-020a26d743fd}}"&gt;Trigger➛Health Tracker Record➛Requested for➛First name&lt;button id="transform_function_facade_db13cf3f-f436-4fa7-97dc-020a26d743fd" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Unforrtuantelly your trips has been cancelled.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please contact your manager if you have any questions.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Regards,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;It Team&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a3a118449cde90107f4448be8d3260ec</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bad6cf889c56d0107f4448be8d3260bc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>Check if approved </value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bad6cf889c56d0107f4448be8d3260bc</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>bad6cf889c56d0107f4448be8d3260bc</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN3ed6cf889c56d0107f4448be8d3260e4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ed6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ed6cf889c56d0107f4448be8d3260e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3ed6cf889c56d0107f4448be8d3260e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3ed6cf889c56d0107f4448be8d3260e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT INbad6cf889c56d0107f4448be8d3260a1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b6d6cf889c56d0107f4448be8d3260a0</id>
+        <name>Record Producer_HealthTrackerFlow</name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN32d6cf889c56d0107f4448be8d3260a7,3ad6cf889c56d0107f4448be8d3260ad"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</model>
+        <model_id>b6d6cf889c56d0107f4448be8d3260a0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b6d6cf889c56d0107f4448be8d3260a0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</model>
+        <model_id>b6d6cf889c56d0107f4448be8d3260a0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b6d6cf889c56d0107f4448be8d3260a0</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN36d6cf889c56d0107f4448be8d3260d1,36d6cf889c56d0107f4448be8d3260db,72d6cf889c56d0107f4448be8d3260c8,72d6cf889c56d0107f4448be8d3260cd,7ad6cf889c56d0107f4448be8d3260d5,b6d6cf889c56d0107f4448be8d3260e1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.3.1</order>
+        <parent_ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>a02ad587-b548-4459-a660-1ddff9560496</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6cf889c56d0107f4448be8d3260d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260d1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36d6cf889c56d0107f4448be8d3260d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ed6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{b12510dc-dc5e-4a19-87e5-6b0840903db7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>36d6cf889c56d0107f4448be8d3260d1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>assigned_to={{Created_1.current.requested_for.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>a163f367-e4e6-4394-99dd-ab2c38ab6f39</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6cf889c56d0107f4448be8d3260db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>Good news Your Trips Have been Approved</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6cf889c56d0107f4448be8d3260db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36d6cf889c56d0107f4448be8d3260db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fa6be05f-ecc5-437d-9576-edefdb7c43ce}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:fa6be05f-ecc5-437d-9576-edefdb7c43ce}}"&gt;Trigger➛Health Tracker Record➛Requested for➛First name&lt;button id="transform_function_facade_fa6be05f-ecc5-437d-9576-edefdb7c43ce" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Good news Your Trips Have been Approved. &lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="white-space: pre;" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJHb29kJTIwbmV3cyUyMFlvdXIlMjBUcmlwcyUyMEhhdmUlMjBiZWVuJTIwQXBwcm92ZWQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA=="&gt;Have a nice trip.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f2d6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36d6cf889c56d0107f4448be8d3260db</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ed6cf889c56d0107f4448be8d3260dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.1</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>586e609b-c345-4212-99ef-180ca9888897</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72d6cf889c56d0107f4448be8d3260c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72d6cf889c56d0107f4448be8d3260c8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>f2d6cf889c56d0107f4448be8d3260ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>x_cdltd_healthtrac_ht_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72d6cf889c56d0107f4448be8d3260c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72d6cf889c56d0107f4448be8d3260c8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bed6cf889c56d0107f4448be8d3260c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72d6cf889c56d0107f4448be8d3260c8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>requested_for={{Created_1.current.requested_for.name}}^diagnosed={{Created_1.current.diagnosed}}^exposed_coworkers={{Created_1.current.coworker_exposed}}^symptoms={{Created_1.current.symptoms}}^parent={{Created_1.current.number}}^assignment_group={"display":"Health Tracker Group","value":"d99270c89c12d0107f4448be8d3260f1"}^coworkers_exposed={{Created_1.current.colleagues_exposed}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>1.2</order>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>188453a0-292d-452a-9c0b-7e837aab9a36</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72d6cf889c56d0107f4448be8d3260cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72d6cf889c56d0107f4448be8d3260cd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72d6cf889c56d0107f4448be8d3260cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>72d6cf889c56d0107f4448be8d3260cd</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>assigned_to={{Created_1.current.requested_for}}^state=1^ORstate=2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>72d6cf889c56d0107f4448be8d3260cd</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.1</order>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ad6cf889c56d0107f4448be8d3260d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>1fbce356-2a7d-4138-a5d9-6142c5adfdac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad6cf889c56d0107f4448be8d3260d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad6cf889c56d0107f4448be8d3260d5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ad6cf889c56d0107f4448be8d3260d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejects1#U[{{Created_1.current.requested_for.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7ad6cf889c56d0107f4448be8d3260d5</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <order>2.3.1</order>
+        <parent_ui_id>71f33ac2-8e93-40ef-987b-362452738b49</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <ui_id>7a3f06b0-3e0b-4fa2-a209-89f898a6153b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>Trips Rejection approval </value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value>x_cdltd_healthtrac_health_tracker</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260e1</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db13cf3f-f436-4fa7-97dc-020a26d743fd}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:db13cf3f-f436-4fa7-97dc-020a26d743fd}}"&gt;Trigger➛Health Tracker Record➛Requested for➛First name&lt;button id="transform_function_facade_db13cf3f-f436-4fa7-97dc-020a26d743fd" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Unforrtuantelly your trips has been cancelled.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Please contact your manager if you have any questions.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Regards,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;It Team&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>f6d6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260e1</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN32d6cf889c56d0107f4448be8d3260c0,76d6cf889c56d0107f4448be8d3260b5,b6d6cf889c56d0107f4448be8d3260b8,b6d6cf889c56d0107f4448be8d3260c3,bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7fa118449cde90107f4448be8d3260f5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>71f33ac2-8e93-40ef-987b-362452738b49</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32d6cf889c56d0107f4448be8d3260c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>32d6cf889c56d0107f4448be8d3260c0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>Approval Rejected</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32d6cf889c56d0107f4448be8d3260c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>32d6cf889c56d0107f4448be8d3260c0</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>32d6cf889c56d0107f4448be8d3260c0</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3250c3849c56d0107f4448be8d326077</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>76d6cf889c56d0107f4448be8d3260b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>b12510dc-dc5e-4a19-87e5-6b0840903db7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=76d6cf889c56d0107f4448be8d3260b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">85b1eabf9c4a90107f4448be8d326061</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>127fbc03-a1d6-47ec-978f-7305b38bd25a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260b8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>3ad6cf889c56d0107f4448be8d3260bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>If User has symptoms</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b6d6cf889c56d0107f4448be8d3260b8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.diagnosed}}=yes_diagnosed</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260b8</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9335c40c9c9e90107f4448be8d3260e9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b6d6cf889c56d0107f4448be8d3260c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b6d6cf889c56d0107f4448be8d3260c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b6d6cf889c56d0107f4448be8d3260c3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>32d6cf889c56d0107f4448be8d3260c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>If Trip Scheduled</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6d6cf889c56d0107f4448be8d3260c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b6d6cf889c56d0107f4448be8d3260c3</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bed6cf889c56d0107f4448be8d3260c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.do_you_have_work_trips}}=yes</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b6d6cf889c56d0107f4448be8d3260c3</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fad6cf889c56d0107f4448be8d3260c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a3a118449cde90107f4448be8d3260ec</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Record Producer_HealthTrackerFlow">b6d6cf889c56d0107f4448be8d3260a0</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0927438b-bbb9-4633-bdfb-0832b4a97d6c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>bad6cf889c56d0107f4448be8d3260bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <ui_id>f88a03eb-4dc6-4ca0-9e3c-b5b959612120</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bad6cf889c56d0107f4448be8d3260bc</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>36d6cf889c56d0107f4448be8d3260bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <value>Check if approved </value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bad6cf889c56d0107f4448be8d3260bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bad6cf889c56d0107f4448be8d3260bc</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{1fbce356-2a7d-4138-a5d9-6142c5adfdac.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>bad6cf889c56d0107f4448be8d3260bc</id>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>fed6cf889c56d0107f4448be8d3260be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN03d6cf889c56d0107f4448be8d3260f4,0bd6cf889c56d0107f4448be8d3260f3,0fd6cf889c56d0107f4448be8d3260f3,83d6cf889c56d0107f4448be8d3260f4,8bd6cf889c56d0107f4448be8d3260f3,8fd6cf889c56d0107f4448be8d3260f3,b2d6cf889c56d0107f4448be8d3260f3"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>03d6cf889c56d0107f4448be8d3260f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>db13cf3f-f436-4fa7-97dc-020a26d743fd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>0bd6cf889c56d0107f4448be8d3260f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2c8877cb-8d95-49b2-be25-94a48f2e16fa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>0fd6cf889c56d0107f4448be8d3260f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>544b11ae-7c9d-4c30-816b-aa629f4ca464</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name.manager.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>83d6cf889c56d0107f4448be8d3260f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f86b164e-d2cc-4cea-9ef6-826ac5917769</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>8bd6cf889c56d0107f4448be8d3260f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95d5737b-1522-49ae-823d-1f7d7d415550</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>8fd6cf889c56d0107f4448be8d3260f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fa6be05f-ecc5-437d-9576-edefdb7c43ce</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b6d6cf889c56d0107f4448be8d3260a0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:42</sys_created_on>
+        <sys_id>b2d6cf889c56d0107f4448be8d3260f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ceb3046-0f79-4195-b6fa-b53045dfe91e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b6d6cf889c56d0107f4448be8d3260a0^sys_idNOT IN72d6cf889c56d0107f4448be8d3260ac,7ed6cf889c56d0107f4448be8d3260b1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b6d6cf889c56d0107f4448be8d3260a0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>72d6cf889c56d0107f4448be8d3260ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b6d6cf889c56d0107f4448be8d3260a0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BMooney</sys_created_by>
+        <sys_created_on>2020-07-24 17:59:41</sys_created_on>
+        <sys_id>7ed6cf889c56d0107f4448be8d3260b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BMooney</sys_updated_by>
+        <sys_updated_on>2020-07-24 17:59:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

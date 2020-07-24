@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Health Tracker Report">4ea7bf849cd6d0107f4448be8d32600a</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>cf4da1fb9cc690107f4448be8d326092</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 21:47:18</sys_created_on>
+        <sys_id>01fabb489cd6d0107f4448be8d3260ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cf4da1fb9cc690107f4448be8d326092</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_01fabb489cd6d0107f4448be8d3260ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 21:47:18</sys_updated_on>
+        <type>3</type>
+        <user display_value="Jose Castro">cf4da1fb9cc690107f4448be8d326092</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

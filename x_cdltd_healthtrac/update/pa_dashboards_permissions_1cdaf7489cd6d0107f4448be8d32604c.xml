@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Health Tracker Report">4ea7bf849cd6d0107f4448be8d32600a</dashboard>
+        <delete>false</delete>
+        <group display_value="Health Tracker Group" name="Health Tracker Group">d99270c89c12d0107f4448be8d3260f1</group>
+        <identity>d99270c89c12d0107f4448be8d3260f1</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 21:46:42</sys_created_on>
+        <sys_id>1cdaf7489cd6d0107f4448be8d32604c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d99270c89c12d0107f4448be8d3260f1</sys_name>
+        <sys_package display_value="HealthTracker" source="x_cdltd_healthtrac">7ce4b9bf9cc690107f4448be8d326065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthTracker">7ce4b9bf9cc690107f4448be8d326065</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_1cdaf7489cd6d0107f4448be8d32604c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 21:46:42</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>
