@@ -17,10 +17,10 @@
         <index name="index2">
             <element name="covid_symptoms"/>
         </index>
-        <index name="index3">
+        <index name="index4">
             <element name="covid_diagnosed"/>
         </index>
-        <index name="index4">
+        <index name="index5">
             <element name="covid_name"/>
         </index>
     </element>

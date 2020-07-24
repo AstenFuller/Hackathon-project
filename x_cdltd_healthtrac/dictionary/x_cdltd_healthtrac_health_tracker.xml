@@ -30,7 +30,9 @@
         </element>
         <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="requested_for" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Please describe your symptoms below:" mandatory="true" max_length="2500" name="symptoms" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="1" label="Do you have any work related trips scheduled?" max_length="40" name="trips" type="boolean">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -52,5 +54,11 @@
                 <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>
